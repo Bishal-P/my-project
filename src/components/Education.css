@@ -1,0 +1,12 @@
+.education{
+    /* background-color: rgb(255, 0, 0); */
+    z-index: 4;
+    color: black;
+}
+
+.covered{
+    background-color: black;
+    z-index: 5;
+    color: black;
+    padding: 30%;
+}
