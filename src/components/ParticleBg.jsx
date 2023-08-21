@@ -12,10 +12,7 @@ function ParticleBg() {
     
     return (
         <Particles id="tsparticles" init={loadParticles} options={{
-        "fullScreen": {
-            "enable":true,
-            "zIndex": 1
-        },
+       
         "particles": {
             "number": {
                 "value": 108,
@@ -135,10 +132,16 @@ function ParticleBg() {
         "retina_detect": true,
         "background": {
             // "color": "#ff000010",
-            // "image": "./images/back.jpg",
+            "image": "url('./images/123.jpg')",
             "position": "50% 50%",
-            "repeat": "no-repeat",
-            "size": "cover"
+            "repeat":"no-repeat",
+            "size": "cover",
+            "height":"100vh",
+            "width": "100%",
+            },
+         "fullScreen": {
+            "enable":true,
+            "zIndex": -1,
         }
     }} />
         
