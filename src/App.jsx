@@ -1,8 +1,9 @@
 // import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import ParticleBg from './components/ParticleBg'
+import Home from './components/Home'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,20 +11,20 @@ function App() {
   return (
     <>
       <ParticleBg>
-
-          
-        </ParticleBg>
+      </ParticleBg>
+    
       <div className='Main'>
-        <img className='rounded-full' src="./images/back1.jpg" alt="" />
-        
-       
+        <img src="./images/back1.jpg" alt="" />
+      </div>
+      <Home/>
+{/*        
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+        </a> */}
+      {/* </div> */}
       <h1>Vite + React</h1>
     
       <div className='letter'>

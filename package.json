@@ -15,7 +15,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-tsparticles": "^2.12.2",
-    "tsparticles": "^2.12.0"
+    "react-typical": "^0.1.3",
+    "tsparticles": "^2.12.0",
+    "typeit-react": "^2.6.4",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
