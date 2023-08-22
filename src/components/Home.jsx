@@ -10,18 +10,18 @@ function Home() {
             <div className="profile-home-container">
                 <ParticleBg/>
           
-            <div className="profile">
-              <div className="home_img mx-auto"></div>
-            
-              <p className="text-7xl text-center name">I'm
-                  <span> Bishal</span></p>
-             <p className="text-2xl text-center typing">   <Typewriter
-                options={{
-                    strings: ["I'm a Programmer", "I'm Into Web Development", "I'm Into App Development"],
-                    autoStart: true,
-                    loop: true,
-                  }}
-            />
+              <div className="profile">
+                <div className="home_img mx-auto"></div>
+              
+                <p className="text-7xl text-center name">I'm
+                    <span> Bishal</span></p>
+              <p className="text-2xl text-center typing">   <Typewriter
+                  options={{
+                      strings: ["I'm a Programmer", "I'm Into Web Development", "I'm Into App Development"],
+                      autoStart: true,
+                      loop: true,
+                    }}
+              />
             </p>         
         
               <div className="links text-center">
