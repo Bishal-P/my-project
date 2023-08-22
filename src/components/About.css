@@ -97,7 +97,7 @@ span{
     margin-bottom:3rem;
     line-height: 30px;
 }
-img{
+.covered img{
     height: auto;
     width: 70%;
     border-radius: 20px;

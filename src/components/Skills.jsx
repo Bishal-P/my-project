@@ -6,7 +6,7 @@ function Skills() {
             <div className="container2">
                 <div className="row">
                     <div className="skills-heading">
-                        <h1 className="text-center">---- What I do <span>?</span> ---- </h1>
+                        <h1 className="text-center">---- What I Know <span>?</span> ---- </h1>
                     </div>
                     <div className="skill-container">
                         <div className="skill-side-name">Skills </div>
