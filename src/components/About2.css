@@ -1,0 +1,75 @@
+.about-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    /* padding: 100px; */
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url("./images/34.jpg");
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    color: white;
+
+}
+
+.about-img1{
+    padding: auto;
+    position: relative;
+    /* height: auto;
+    width: 400px; */
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.about-img1 img{
+    width: 400px;
+    height:auto;
+    margin-left: 170px;
+    border-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */   
+}
+.about-para{
+    padding: 50px;
+    padding-right: 100px;
+    font-size: 1.6rem;
+    
+}
+
+.about-para button{
+    margin-top: 50px;
+}
+
+.about-heading{
+    font-family: 'Dosis', sans-serif;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        text-align: center;
+        color: rgb(218, 231, 26);
+}
+
+.about-heading h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: antiquewhite;
+}
+
+span {
+    color: tomato;
+}
+
+@media only screen and (max-width:728px)

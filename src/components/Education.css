@@ -56,7 +56,7 @@
 
  .education{
     height: 100vh;
-    background-image: url("./images/21.jpg");
+    background-image: url("./images/8.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -137,4 +137,32 @@
     color: #ffffff;
     line-height: 1;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width:768px){
+    .cards-of-education{
+        flex-wrap: wrap;
+    }
+    .common-cards {
+        width: 300px;
+        margin-bottom: 50px;
+
+    }
+    .education{
+        height: 100%;
+    }
+    .education-title h4{
+        font-size: 1.5rem;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .education-title h4{
+        font-size: 0.9rem;
+    }
+    
 }

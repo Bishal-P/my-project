@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
     background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgba(107, 106, 27, 0.76) 66%);
 }
@@ -121,4 +121,62 @@
   color: white;
 }
 
+@media only screen and (max-width:1024px){
+  .container2{
+    height: 100%;
+  }
+  .skills-div{
+    gap: 0px;
+  }
+  .skill-container{
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .skill-side-name{
+    margin-bottom: 90px;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .container2{
+    height: 100%;
+  }
+  .skills-heading{
+    margin-top: 0px;
+    font-size: 3.5rem;
+  }
+  .skills-div{
+    gap: 5px;
+    margin-top: 0px;
+    justify-content: center;
+
+  }
+  .skill-side-name{
+    margin: 0px;
+    margin-bottom: 60px;
+  }
+  
+}
+
+
+@media only screen and (max-width:425px){
+  .skill-side-name{
+    display: none;
+  }
+  .skills-div{
+    flex: 1;
+    /* margin:0px */
+  }
+  .skills-div div{
+    height: 100px;
+    width: 100px;
+  }
+  .skills-name img{
+    height: 60px;
+  }
+  .skills-heading{
+    font-size: 2rem;
+  }
+}
 

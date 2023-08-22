@@ -88,3 +88,31 @@ i:hover{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+
+
+@media only screen and (max-width:768px){
+  
+    .links{
+        width: 100vw;
+        
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+
+    .links {
+        /* width: 100vw; */
+        display: flex;  
+        justify-content: space-evenly;
+        margin-top: 50px;
+
+    }
+    i{
+        font-size: 45px;
+        margin: 0px;
+    }
+  
+}
+

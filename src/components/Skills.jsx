@@ -39,18 +39,18 @@ function Skills() {
                                                                 <img src={"images/skills-images/dart.png"} alt="" />
                                             <p>Dart</p>
                                             </div>
-                                            <div className="cpp skills-name">
-                                                                <img src={"images/skills-images/cpp.png"} alt="" />
-                                            <p>C++</p>
-                                            </div>
-                                            <div className="sqlite skills-name">
-                                                                <img src={"images/skills-images/sql.png"} alt="" />
-                                            <p>Sqlite</p>
-                                            </div>
-                                            <div className="mysql skills-name">
-                                                                <img src={"images/skills-images/mysql.png"} alt="" />
-                                            <p>MySql</p>
-                                            </div>
+                                        <div className="cpp skills-name">
+                                                            <img src={"images/skills-images/cpp.png"} alt="" />
+                                        <p>C++</p>
+                                        </div>
+                                        <div className="sqlite skills-name">
+                                                            <img src={"images/skills-images/sql.png"} alt="" />
+                                        <p>Sqlite</p>
+                                        </div>
+                                        <div className="mysql skills-name">
+                                                            <img src={"images/skills-images/mysql.png"} alt="" />
+                                        <p>MySql</p>
+                                        </div>
                                         <div className="flutter skills-name">
                                                                 <img src={"images/skills-images/flutter.png"} alt="" />
                                             <p>Flutter</p>
