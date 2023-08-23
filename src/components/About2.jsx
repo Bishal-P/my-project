@@ -7,7 +7,7 @@ function About2() {
 
                 <div className="about-heading">
                     <h2>About Me</h2>
-                    <h5>I am Dynamic Creative Designer <span>Programmer and Developer</span></h5>
+                    <h5>I am a <span>Programmer and Developer</span></h5>
                 </div>
 
                 <div className="about-content">
