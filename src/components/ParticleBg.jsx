@@ -142,7 +142,10 @@ function ParticleBg() {
          "fullScreen": {
             "enable":true,
             "zIndex": -1,
-        }
+         },
+         "style":{
+            "position":"absolute",
+        },
     }} />
         
     )
